@@ -105,7 +105,7 @@
           ];
         };
         customRC = ''
-          source /home/traveller/.config/nvim/init.vim
+          source /home/radian/.config/nvim/init.vim
         '';
       };
     })

@@ -181,7 +181,7 @@ in {
     # git remote add channels https://github.com/nixos/nixpkgs-channels
     # git fetch channels
     # git checkout channels/nixos-unstable
-    "nixpkgs=/home/traveller/code/nixpkgs"
+    "nixpkgs=/home/radian/code/nixpkgs"
 
     # Keep the default nixos-config:
     "nixos-config=/etc/nixos/configuration.nix"
@@ -198,7 +198,7 @@ in {
     displayManager.lightdm.enable = true;
 
     displayManager.sessionCommands = ''
-      sh /home/traveller/.fehbg &
+      sh /home/radian/.fehbg &
       xmobar                    &
       dropbox                   &
     '';
@@ -262,8 +262,8 @@ in {
     # systemctl start openvpn-east
     east = {
       config = ''
-        cd /home/traveller/code/nixnotes/vpn
-        config "/home/traveller/code/nixnotes/vpn/US East.ovpn"
+        cd /home/radian/code/nixnotes/vpn
+        config "/home/radian/code/nixnotes/vpn/US East.ovpn"
       '';
       autoStart = false;
     };
@@ -287,16 +287,16 @@ in {
   security.sudo.wheelNeedsPassword = false;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.extraUsers.traveller = {
-    name = "traveller";
+  users.extraUsers.radian = {
+    name = "radian";
     group = "users";
     extraGroups = [ "wheel" "docker" ];
     uid = 1000;
-    home = "/home/traveller";
+    home = "/home/radian";
     createHome = true;
     shell = "${pkgs.zsh}/bin/zsh"; # Changes to this take effect on login.
     openssh.authorizedKeys.keyFiles = [
-      "/home/traveller/.ssh/id_rsa.pub"
+      "/home/radian/.ssh/id_rsa.pub"
     ];
   };
 }

@@ -1,5 +1,5 @@
 #!/bin/sh
 
-stow --verbose --target=/home/traveller/bin --dir=src/haskell   bin
-stow --verbose --target=/home/traveller/bin --dir=src/utilities bin
-stow --verbose --target=/home/traveller/bin --dir=src/xmonad    bin
+stow --verbose --target=/home/radian/bin --dir=src/haskell   bin
+stow --verbose --target=/home/radian/bin --dir=src/utilities bin
+stow --verbose --target=/home/radian/bin --dir=src/xmonad    bin

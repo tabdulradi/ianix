@@ -52,7 +52,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    # root doesn't have access to traveller's aliases,
+    # root doesn't have access to radian's aliases,
     # so give it a `vim` command:
     vim
     xorg.xbacklight

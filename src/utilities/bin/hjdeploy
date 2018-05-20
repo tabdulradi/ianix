@@ -7,5 +7,5 @@ rsync \
   --verbose \
   --checksum \
   --exclude='.git/' \
-  /home/traveller/code/mine/housejeffries/ \
-  webfaction:/home/traveller/webapps/housejeffries_static
+  /home/radian/code/mine/housejeffries/ \
+  webfaction:/home/radian/webapps/housejeffries_static

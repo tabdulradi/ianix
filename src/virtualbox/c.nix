@@ -17,5 +17,5 @@
 
   environment.systemPackages = with pkgs; [ vagrant ];
 
-  users.extraGroups.vboxusers.members = [ "traveller" ];
+  users.extraGroups.vboxusers.members = [ "radian" ];
 }

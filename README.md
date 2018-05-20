@@ -16,7 +16,7 @@ For info on the background image try Googling "Makoto Shinkai The Place Promised
 
 2. Download this repo.
 
-3. Grep this repo for `traveller` (my username) and change it to what's appropriate for your computer. This is a very rough project and `/home/traveller` is hardcoded far more than it needs to be. You may also want to place this repo at `~/config` or have a symlink from there pointed at this repo, some code may assume that's where the repo is located.
+3. Grep this repo for `radian` (my username) and change it to what's appropriate for your computer. This is a very rough project and `/home/radian` is hardcoded far more than it needs to be. You may also want to place this repo at `~/config` or have a symlink from there pointed at this repo, some code may assume that's where the repo is located.
 
 4. (optional) Grep the config files for "cron" and remove any cron jobs you don't want.
 
@@ -43,7 +43,7 @@ For info on the background image try Googling "Makoto Shinkai The Place Promised
     Alternately if you want to add your machine-specific configuration to this repo, make a folder for your machine in this repo following the example of `./desktop`. Add your `configuration.nix` and `hardware-configuration.nix` to it. Modify your configuration import this repo's `./shared.nix`, then change `/etc/nixos/configuration.nix` to import your machine-specific config, eg:
     ```nix
     {
-      imports = [ /home/traveller/config/machine/desktop/configuration.nix ];
+      imports = [ /home/radian/config/machine/desktop/configuration.nix ];
     }
     ```
 

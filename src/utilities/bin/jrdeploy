@@ -6,5 +6,5 @@ rsync \
   --rsh ssh \
   --verbose \
   --checksum \
-  /home/traveller/code/mine/jrexec/site/ \
-  webfaction:/home/traveller/webapps/juniorschematics_static
+  /home/radian/code/mine/jrexec/site/ \
+  webfaction:/home/radian/webapps/juniorschematics_static

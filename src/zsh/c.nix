@@ -149,7 +149,7 @@
       # Nix's gnupg makes a gpg2 executable.
       gpg = "gpg2";
 
-      linth = "hlint --hint=/home/traveller/.hlint.hs";
+      linth = "hlint --hint=/home/radian/.hlint.hs";
 
       lock = "i3lock"; # "systemctl suspend & i3lock";
 

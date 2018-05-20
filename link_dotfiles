@@ -1,13 +1,13 @@
 #!/bin/sh
 
-stow --verbose --target=/home/traveller --dir=src/emacs   dotfiles
-stow --verbose --target=/home/traveller --dir=src/fish    dotfiles
-stow --verbose --target=/home/traveller --dir=src/firefox dotfiles
-stow --verbose --target=/home/traveller --dir=src/git     dotfiles
-stow --verbose --target=/home/traveller --dir=src/haskell dotfiles
-stow --verbose --target=/home/traveller --dir=src/mbsync  dotfiles
-stow --verbose --target=/home/traveller --dir=src/msmtp   dotfiles
-stow --verbose --target=/home/traveller --dir=src/mutt    dotfiles
-stow --verbose --target=/home/traveller --dir=src/urxvt   dotfiles
-stow --verbose --target=/home/traveller --dir=src/vim     dotfiles
-stow --verbose --target=/home/traveller --dir=src/xmonad  dotfiles
+stow --verbose --target=/home/radian --dir=src/emacs   dotfiles
+stow --verbose --target=/home/radian --dir=src/fish    dotfiles
+stow --verbose --target=/home/radian --dir=src/firefox dotfiles
+stow --verbose --target=/home/radian --dir=src/git     dotfiles
+stow --verbose --target=/home/radian --dir=src/haskell dotfiles
+stow --verbose --target=/home/radian --dir=src/mbsync  dotfiles
+stow --verbose --target=/home/radian --dir=src/msmtp   dotfiles
+stow --verbose --target=/home/radian --dir=src/mutt    dotfiles
+stow --verbose --target=/home/radian --dir=src/urxvt   dotfiles
+stow --verbose --target=/home/radian --dir=src/vim     dotfiles
+stow --verbose --target=/home/radian --dir=src/xmonad  dotfiles
